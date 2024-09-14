@@ -50,7 +50,7 @@
 (defn add-edge-graph [g [a b]]
   (assoc-in g [a b] true))
 
-(let [n (read-num-on-line)
+#_(let [n (read-num-on-line)
       g (vec (repeat n {}))
       h g
       mg (read-num-on-line)
