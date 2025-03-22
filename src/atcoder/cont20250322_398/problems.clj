@@ -58,3 +58,6 @@
   (let [_ (read-line)
         as (read-many-nums-on-line)]
     (println (p3 as))))
+
+; Note on problem 4: the obvious naive way is O(n²), and I'm def not doing
+; that. Going to look up how this is done after the contest is over. Done here.
